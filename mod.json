@@ -6,7 +6,7 @@
 	"version": "1.0.0",
 	"coverImage": "Cover.png",
 	"packageId": "com.beatgames.beatsaber",
-	"packageVersion": "1.21.0",
+	"packageVersion": "1.24.0",
 	"description": "skip the intro and outro of maps",
 	"dependencies": [],
 	"modFiles": [
