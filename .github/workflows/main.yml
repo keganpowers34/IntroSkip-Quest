@@ -113,12 +113,12 @@ jobs:
       run: |
         cd ${GITHUB_WORKSPACE}
         pwsh -Command ./buildQMOD.ps1 -package
-#    - name: Upload non-debug artifact
-#      uses: actions/upload-artifact@v2
-#      with:
-#        name: ${{ steps.libname.outputs.NAME }}
-#        path: ./build/${{ steps.libname.outputs.NAME }}
-#        if-no-files-found: error
+    - name: Upload non-debug artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ steps.libname.outputs.NAME }}
+        path: ./build/${{ steps.libname.outputs.NAME }}
+        if-no-files-found: error
 
 
 #    - name: Upload debug artifact
