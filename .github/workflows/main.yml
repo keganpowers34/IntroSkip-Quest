@@ -15,7 +15,7 @@ on:
       - '**.zip'
 env:
      module_id: IntroSkip
-     version: 0.1.0-Dev.${{ github.run_number }}
+     version: 0.1.1-Dev.${{ github.run_number }}
 
 jobs:
   build:
