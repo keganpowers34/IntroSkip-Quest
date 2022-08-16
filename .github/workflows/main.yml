@@ -14,7 +14,7 @@ on:
       - '.gitignore'
       - '**.zip'
 env:
-     module_id: introskip
+     module_id: IntroSkip
      version: 0.1.0-Dev.${{ github.run_number }}
 
 jobs:
